@@ -2,10 +2,14 @@
 
 Pronóstico de demanda y políticas de inventario para los componentes críticos de Heritage Motors S.A. Investigación Operativa, UTN FRCU.
 
+Consigna del trabajo: [docs/consigna.md](docs/consigna.md).
+
 ## Estructura
 
 ```
 .
+├── docs/
+│   └── consigna.md                 # consigna del TP
 ├── data/
 │   └── sales_data_sample_raw.csv   # dataset original, sin modificar
 ├── outputs/                        # lo generan los notebooks; no editar a mano

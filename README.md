@@ -4,12 +4,15 @@ Pronóstico de demanda y políticas de inventario para los componentes críticos
 
 Consigna del trabajo: [docs/consigna.md](docs/consigna.md).
 
+Resumen de decisiones y resultados de los notebooks: [docs/resumen.md](docs/resumen.md).
+
 ## Estructura
 
 ```
 .
 ├── docs/
-│   └── consigna.md                 # consigna del TP
+│   ├── consigna.md                 # consigna del TP
+│   └── resumen.md                  # resumen de decisiones y resultados
 ├── data/
 │   └── sales_data_sample_raw.csv   # dataset original, sin modificar
 ├── outputs/                        # lo generan los notebooks; no editar a mano

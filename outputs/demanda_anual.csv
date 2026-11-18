@@ -5,3 +5,5 @@ demanda_anual_vintage,12430.0
 proporcion_clasicos,0.6191
 proporcion_vintage,0.3809
 desvio_error_mensual_total,401.1
+desvio_error_mensual_clasicos,320.3
+desvio_error_mensual_vintage,151.9

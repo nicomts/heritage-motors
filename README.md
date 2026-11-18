@@ -18,7 +18,7 @@ Resumen de decisiones y resultados de los notebooks: [docs/resumen.md](docs/resu
 ├── outputs/                        # lo generan los notebooks; no editar a mano
 ├── 01_serie_demanda.ipynb          # serie mensual de demanda
 ├── 02_pronostico.ipynb             # pronóstico de la demanda
-├── 03_abc_parametros.ipynb         # ABC/XYZ y parámetros de riesgo (pendiente)
+├── 03_abc_parametros.ipynb         # ABC/XYZ y parámetros de riesgo
 ├── 04_politicas.ipynb              # políticas A y B, almacén y sensibilidad (pendiente)
 └── README.md
 ```
@@ -97,11 +97,20 @@ Además, en `outputs/` aparecen `serie_mensual.csv` y `serie_mensual.png`.
 En `02_pronostico.ipynb`:
 
 - La sección 2 muestra `Meses: 29 | desde 2003-01 hasta 2005-05`. Si da error al leer `outputs/serie_mensual.csv`, falta correr el 01. Si da error al importar `statsmodels`, falta instalarla en el entorno.
-- La sección 7 muestra `Demanda anual total: 32634 autos` y `Desvío del error mensual: 401 autos`.
+- La sección 7 muestra `Demanda anual total: 32634 autos` y `Desvío del error mensual: 401 autos`, con los desvíos por línea: `Clásicos: 320 autos` y `Vintage: 152 autos`.
 
 Además, en `outputs/` aparecen `pronostico_12_meses.csv`, `demanda_anual.csv` y `pronostico.png`.
 
 Estos números se obtuvieron con statsmodels 0.15.0. Otra versión puede dar diferencias chicas, porque la librería estima los valores iniciales del modelo con un optimizador.
+
+En `03_abc_parametros.ipynb`:
+
+- La sección 1 muestra `Meses de la serie: 29`. Si da error al leer `outputs/demanda_anual.csv`, falta correr el 02.
+- La sección 5 muestra `Componentes clase A: 6 | clases: AZ`.
+- La sección 6.2 muestra `Autos: Clásicos 33499 | Vintage 20609`, los mismos totales que el 01.
+- La sección 6.5 muestra `True` en la columna `¿cumple?` para los seis componentes.
+
+Además, en `outputs/` aparecen `componentes.csv`, `abc_componentes.png` y `parametros.csv`.
 
 ## Reglas de trabajo
 

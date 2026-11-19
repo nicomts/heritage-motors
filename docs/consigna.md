@@ -76,14 +76,6 @@ El trabajo debe presentarse como un **Informe Técnico-Ejecutivo** siguiendo la 
 | **Desempeño Básico** | 45 - 59% | Se aplicaron incorrectamente modelos fundamentales (ej. falla en cálculos). Faltan secciones clave (ej. el análisis de sensibilidad es omitido). |
 | **No Satisfactorio** | < 45% | Falla en el modelado inicial (pronóstico o ABC) o aplicación incorrecta de los modelos EOQ/probabilísticos. El trabajo es incompleto y no demuestra comprensión de los conceptos centrales de la Investigación Operativa. |
 
-# Resumen Ejecutivo
 
-# Análisis Preliminar
-
-# Modelos
-
-# Sensibilidad
-
-# Conclusiones
 
 

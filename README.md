@@ -6,12 +6,15 @@ Consigna del trabajo: [docs/consigna.md](docs/consigna.md).
 
 Resumen de decisiones y resultados de los notebooks: [docs/resumen.md](docs/resumen.md).
 
+Informe técnico-ejecutivo: [docs/informe.md](docs/informe.md).
+
 ## Estructura
 
 ```
 .
 ├── docs/
 │   ├── consigna.md                 # consigna del TP
+│   ├── informe.md                  # informe técnico-ejecutivo
 │   └── resumen.md                  # resumen de decisiones y resultados
 ├── data/
 │   └── sales_data_sample_raw.csv   # dataset original, sin modificar
